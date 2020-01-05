@@ -1,0 +1,16 @@
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+  
+.game-board {
+    width: 500px;
+}
